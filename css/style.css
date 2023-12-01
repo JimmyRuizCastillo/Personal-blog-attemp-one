@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(166,93,234,1) 25%,
+        rgba(287, 183, 235, 1) 73%);
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back{
+    padding: 32px 0;
+    background-color: #2A394F;
+}
+
+.menu_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:contents;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.img{
+    
+    font-size: 24px;
+    margin-left: 5%;
+    font-weight: 800;
+    width: 10%;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-size: 12px;
+    color: #87a3b3;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text_logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.menu_container .navbar ul li{
+    position:relative;
+    float: right;
+}
+
+.menu_container .navbar ul li a{
+    
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #e0dcdc;
+    display: block;
+}
+
+.menu_container .navbar ul li a:hover{
+    color: #15A4F9;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu_container label{
+    cursor: pointer;
+    display: none;
+}
+
+#father{
+    align-items: center;
+    justify-content: center;
+}
+
+#container-h2{
+    align-items: center;
+    justify-content: center;
+    margin:0px auto;
+}
+
+.saludo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.pie-pagina{
+    margin-top: 50%;
+    flex: 0 0 auto;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
